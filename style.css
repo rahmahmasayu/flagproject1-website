@@ -1,0 +1,56 @@
+.bendera {
+    width: 600px;
+    height: 400px;
+    position: relative;
+  }
+
+  .biru{
+    width: 100%;
+    height: 33.33%;
+    background-color: navy;
+  }
+
+  .putih{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+   }
+
+   .inner-putih{
+    width: 40px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .text{
+    font-size: 40px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+   }
+
+
+  .merah{
+    width: 100%;
+    height: 33.33%;
+    background-color: maroon;
+  }
+
+  h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+  }
